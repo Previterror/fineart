@@ -23,9 +23,10 @@ async function getArt() {
 <template>
   <div class="text-light">
     Some art goes here
-    <div class="row">
-      <div v-for="art in artworks" :key="art.id" class="col-4 border border-dark rounded shadow">
-        <img :src="art.thumb" alt="">
+    <div class="row justify-content-around">
+      <div v-for="art in artworks" :key="art.id"
+        class="col-3 border border-4 border-info rounded m-2 p-1 d-flex justify-content-center">
+        <img :src="art.thumb" :alt="art.id" class="img-fluid">
       </div>
     </div>
   </div>

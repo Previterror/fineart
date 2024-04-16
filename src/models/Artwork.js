@@ -4,6 +4,7 @@ export class Artwork {
         this.full = data.imgUrls.full
         this.thumb = data.imgUrls.thumb
         this.description = data.description
+        this.admirers = data.admirers || []
     }
 }
 
