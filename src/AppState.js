@@ -9,5 +9,9 @@ export const AppState = reactive({
   account: null,
 
   /**@type {Artwork[]}*/
-  artworks: []
+  artworks: [],
+
+  currentPage: 1,
+
+  maxPages: 0
 })
