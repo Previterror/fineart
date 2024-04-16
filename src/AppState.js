@@ -13,5 +13,8 @@ export const AppState = reactive({
 
   currentPage: 1,
 
-  maxPages: 0
+  maxPages: 0,
+
+  /**@type {Artwork} */
+  activeArt: null
 })

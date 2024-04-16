@@ -47,8 +47,7 @@ async function changePage(inc) {
   <hr>
   <div class="text-light">
     <div class="row justify-content-around">
-      <Artcard v-for="art in artworks" :key="art.id" :art="art"
-        class="col-3 artborder m-2 p-1 d-flex justify-content-center" />
+      <Artcard v-for="art in artworks" :key="art.id" :art="art" class="col-3 m-2 p-1 d-flex justify-content-center" />
     </div>
   </div>
 </template>
