@@ -11,7 +11,7 @@ const active = AppState.activeArt
 <template>
     <div class="row justify-content-center m-3 g-4">
         <div class="col-6">
-            <img :src="active.full" alt="" class="img-fluid artborder bg-light p-3">
+            <img :src="active.full" alt="" class="img-fluid  bg-light p-3">
         </div>
         <div class="col-7 p-4 text-light fs-5 bg-dark border rounded">
             {{ active.description }}
